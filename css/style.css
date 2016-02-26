@@ -31,6 +31,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+    height: auto;
     display: block;
     
 }
@@ -39,6 +40,7 @@ body{
     margin: 0 auto;
     padding: 0;
     width: 100%;
+    height: auto;
     display: block;
     text-align: center;
     
@@ -48,6 +50,7 @@ body{
     margin: 1.5rem 0 0;
     padding: 0;
     width: 20%;
+    height: auto;
     text-decoration: none;
     float: left;
     
@@ -61,6 +64,7 @@ body{
     margin: 1rem 0 0;
     padding: 0;
     width: 60%;
+    height: auto;
     float: left;
     
 }
@@ -77,8 +81,9 @@ body{
 
 .header-right > ul > li{
     margin: 0 auto;
-    width: 6rem;
-    height: 3rem;
+    padding: 0;
+    width: 100%;
+    height: auto;
     display: inline;
     list-style-type: none;
     line-height: 3rem;
