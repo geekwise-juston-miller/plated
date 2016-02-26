@@ -80,11 +80,11 @@ body{
 }
 
 .header-right > ul > li{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    width: 100%;
+    width: 40%;
     height: auto;
-    display: inline;
+    display: inline-block;
     list-style-type: none;
     line-height: 3rem;
     font-size: 1.1rem;
@@ -128,7 +128,7 @@ h1{
     margin: 0 auto;
     padding: 0;
     width: 40%;
-    height: 8rem;
+    height: 50%;
     color: #ffffff;
     font-weight: bold;
     font-size: 2.5rem;
@@ -141,16 +141,18 @@ form{
     padding: 0;
     width: 100%;
     height: auto;
+    
 }
 
 .mid-text > form > input{
     margin: 0;
     padding: 0;
-    width: 20%;
-    height: 80%
+    width: 25%;
+    height: 2rem;
+    text-align: center;
+    font-weight: bold;
+    
 }
-
-
 
 footer{
     
