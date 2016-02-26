@@ -69,19 +69,33 @@ body{
     margin: 0 auto;
     padding: 0;
     width: 20%;
-    float: left;    
-    display: block
+    height: auto;
+    float:right;    
+    display: block;
+    
 }
 
 .header-right > ul > li{
     margin: 0 auto;
-    padding-top: 0.8rem;
-    width: 6rem;
-    height: 2.5rem;
+    width: 5rem;
+    height: 3rem;
     display: inline-block;
     list-style-type: none;
-    vertical-align: middle;
+    line-height: 3rem;
+    position: relative;
+    font-size: 1.1rem;
+}
 
+.header-right > ul :nth-of-type(2){
+    background-color: #56cc9d;
+}
+
+#log-in{
+    color: #000000;
+}
+
+#sign-up{
+    color: #FFFFFF;
 }
 
 main{
@@ -102,19 +116,37 @@ main{
     width: 100%;
     height: auto;
     display: block;
-    
+    transform: translateY(6rem);
     
 }
 
 h1{
     margin: 0 auto;
     padding: 0;
-    width: 25rem;
+    width: 40%;
+    height: 8rem;
     color: #ffffff;
     font-weight: bold;
     font-size: 2.5rem;
     display: block;
+    
 }
+
+form{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.mid-text > form > input{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 80%
+}
+
+
 
 footer{
     
