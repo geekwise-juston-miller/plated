@@ -57,7 +57,13 @@ body{
 }
 
 .header-left > i{
-    margin: 0 .6rem 0 0;
+    margin: 0 1rem 0 1rem;
+    padding: 0;
+    width: 1rem;
+    height: 1rem;
+    font-size: 1.6rem;
+    font-weight: normal;
+    
 }
 
 .header-left > button{
@@ -65,6 +71,14 @@ body{
     padding: 0;
     width: auto;
     height: auto;
+    font-size: 1rem;
+    border: none;
+    
+}
+
+.header-left > button > a{
+    background-color: #FFFFFF;
+    color: #000000;
     
 }
 
@@ -100,25 +114,32 @@ body{
 }
 
 .header-right > ul > li{
-    margin: 0 .5rem 0;
+    margin: 0 auto;
     padding: 0;
     width: 100%;
     height: auto;
     display: inline;
     list-style-type: none;
     line-height: 4rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
 #sign-up{
     margin: 0;
     padding: 0;
+    width: 5rem;
+    height: auto;
     background-color: #56cc9d;
     color: #FFFFFF;
     display: inline-block;
 }
 
 #log-in{
+    margin: 0;
+    padding: 0;
+    width: 5rem;
+    height: auto;
     color: #000000;
     display: inline-block;
 }
@@ -169,11 +190,11 @@ form{
 .mid-text > form > input{
     margin: 0;
     padding: 0;
-    width: 99%;
-    height: 2rem;
+    width: 98%;
+    height: 2.7rem;
     text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-weight: normal;
+    font-size: 1.1rem;
     
 }
 
@@ -181,10 +202,12 @@ button{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 2rem;
+    height: 2.8rem;
     display: inline-block;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.2rem;
+    background-color: #56cc9d;
+    color: #ffffff;
 }
 
 footer{
@@ -272,10 +295,10 @@ footer{
     }
     
     .footer-left > ul > li:nth-of-type(6){
-       display: none;
+       width: auto;
     }
     .footer-left > ul > li:nth-of-type(7){
-       display: none;
+       width: auto;
     }
     
     .footer-left > ul > li{
